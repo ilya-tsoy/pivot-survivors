@@ -5,7 +5,7 @@ export class Weapon {
         this.player = player;
         this.damage = 10;
         this.fireRate = 1; // shots per second
-        this.projectileSpeed = 7;
+        this.projectileSpeed = 14;
         this.projectileCount = 1;
         this.projectileSize = 5;
         this.projectileSpread = 0.1;
@@ -27,8 +27,8 @@ export class Weapon {
                 this.projectileCount += 1;
                 break;
             case 'projectileSpeed':
-                // Additive scaling based on base speed (7.0)
-                this.projectileSpeed += 1.4;
+                // Additive scaling based on base speed (14.0)
+                this.projectileSpeed += 2.8;
                 break;
             case 'area':
                 this.areaMultiplier += 0.05;
