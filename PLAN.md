@@ -18,7 +18,7 @@ pivot-survivors/
 ├── styles.css              # UI and canvas styling
 ├── js/
 │   ├── main.js            # Game initialization and state management
-│   ├── game.js            # Core game loop and update logic
+│   ├── game2.js           # Core game loop and update logic
 │   ├── renderer.js        # Canvas rendering functions
 │   ├── player.js          # Player class and movement
 │   ├── weapon.js          # Weapon and projectile classes

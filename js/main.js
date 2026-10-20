@@ -1,4 +1,4 @@
-import { Game } from './game.js';
+import { Game } from './game2.js';
 import { Input } from './input.js';
 
 window.addEventListener('load', () => {
